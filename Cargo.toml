@@ -1,0 +1,7 @@
+[package]
+name = "chip-8-rust"
+version = "0.1.0"
+authors = ["Derek Spaulding <derek@derekaspaulding.com>"]
+edition = "2018"
+
+[dependencies]
