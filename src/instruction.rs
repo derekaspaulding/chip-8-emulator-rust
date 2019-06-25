@@ -98,6 +98,7 @@ pub enum Instruction {
 
 
 impl Instruction {
+    // TODO: Replace panics with a Result
     pub fn parse(raw: (u8, u8)) -> Instruction {
         let (upper_byte, lower_byte) = raw;
 
